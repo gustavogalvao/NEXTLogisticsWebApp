@@ -1,0 +1,16 @@
+<div class="list" style="text-align: center">
+  <ul class="list-group">
+    <li *ngFor="let product of products | paginate: { itemsPerPage: 5, currentPage: p }; let i = index" (click)="selectProduct(product)" class="list-group-item" [class.selected]="product === selectedProduct">
+        <div class="row">
+          <div class="col-md-2">
+              <img src="{{product.ImagePath}}" alt="..." class="img-thumbnail">
+          </div>
+          <div class="col-md-6">{{product.ProductCode}}</div>
+          <div class="col-md-4">{{product.PerformanceRating}}</div>
+        </div>
+    </li>
+  </ul>
+</div>
+<div id="paginationContainer" *ngIf="products.length > 4">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

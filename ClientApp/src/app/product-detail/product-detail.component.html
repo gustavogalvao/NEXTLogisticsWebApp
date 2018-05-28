@@ -1,0 +1,40 @@
+<div *ngIf="product" class="details">
+  <div class="row">
+      <div class="col-md-3">
+          <img src="{{product.ImagePath}}" alt="..." class="img-fluid img-thumbnail">
+      </div>
+      <div class="col-md-9">
+          <div class="panel panel-primary">
+            <div class="panel-heading">PRODUCT INFO</div>
+            <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-9">
+                    <strong>CODE: </strong> {{product.ProductCode}}<br><br>
+                    <strong>NAME: </strong>{{product.Product}}<br><br>
+                    <strong>RETAIL PRICE: </strong>{{product.OriginalSell | currency:'AUD'}}<br><br>
+                    <strong>CONVERSION RATE: </strong>{{product.ConversionRate}}
+                  </div>
+                  <div class="col-md-3">
+                    <strong>RATING: </strong>{{product.PerformanceRating}}
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">PRODUCT CATEGORIES</div>
+          <div class="panel-body">
+              {{product.Category1}}<br><br>
+              {{product.Category2}}<br><br>
+              {{product.Category3}}<br><br>
+              {{product.Category4}}<br><br>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

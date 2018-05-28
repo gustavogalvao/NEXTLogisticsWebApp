@@ -1,0 +1,24 @@
+.border {
+    border: solid 1px #ccc;
+}
+
+#paginationContainer {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: .25rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.list {
+    padding: 3%;
+}
+
+.list-group-item {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.selected {
+    background-color: #CFD8DC !important;
+    color: #000;
+  }

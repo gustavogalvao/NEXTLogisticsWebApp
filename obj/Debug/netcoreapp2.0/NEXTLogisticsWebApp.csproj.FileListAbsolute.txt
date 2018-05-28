@@ -1,0 +1,10 @@
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/bin/Debug/netcoreapp2.0/NEXTLogisticsWebApp.deps.json
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/bin/Debug/netcoreapp2.0/NEXTLogisticsWebApp.runtimeconfig.json
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/bin/Debug/netcoreapp2.0/NEXTLogisticsWebApp.runtimeconfig.dev.json
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/bin/Debug/netcoreapp2.0/NEXTLogisticsWebApp.dll
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/bin/Debug/netcoreapp2.0/NEXTLogisticsWebApp.pdb
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/obj/Debug/netcoreapp2.0/NEXTLogisticsWebApp.csproj.CoreCompileInputs.cache
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/obj/Debug/netcoreapp2.0/NEXTLogisticsWebApp.AssemblyInfoInputs.cache
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/obj/Debug/netcoreapp2.0/NEXTLogisticsWebApp.AssemblyInfo.cs
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/obj/Debug/netcoreapp2.0/NEXTLogisticsWebApp.dll
+/Users/user/IT/workspace/dotnet/NEXTLogisticsWebApp/obj/Debug/netcoreapp2.0/NEXTLogisticsWebApp.pdb

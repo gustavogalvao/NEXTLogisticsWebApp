@@ -1,0 +1,13 @@
+.details {
+    padding: 3%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

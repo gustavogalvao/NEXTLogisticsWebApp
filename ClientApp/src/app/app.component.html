@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header" style="color: #fff">
+            <a class="navbar-brand" href="#" style="color: #fff">
+                <i class="fa fa-angular"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+  <div id="homeContainer" class="row">
+    <div class="col-md-5">
+      <app-product-list (toParent)="onProductClick($event)"></app-product-list>
+    </div>
+    <div id="detailsContainer" class="col-md-7">
+      <app-product-detail [product]="selectedProduct"></app-product-detail>
+    </div>
+  </div>
+</div>
